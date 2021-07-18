@@ -9,3 +9,27 @@
     color: white;
     font-weight: 600;
 }
+
+.nav__new {
+    background-color: tomato;
+    width:8px;
+    height:8px;
+    border-radius: 50%;
+    position:absolute;
+    left:35px;
+    bottom:30px;
+}
+
+.modified-status {
+    width:5px;
+    height:5px;
+    position:absolute;
+    left:-5px;
+    top:-7px;
+}
+
+.user-component__column .badge {
+    width: 20px;
+    height: 20px;
+    margin-top:5px;
+}

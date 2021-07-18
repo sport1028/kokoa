@@ -1,5 +1,6 @@
 .user-component {
     justify-content: space-between;
+    margin-bottom:20px;
 }
 
 .user-component,
@@ -30,7 +31,7 @@
 .user-component__subtitle {
     margin-top:5px;
     font-size: 170x;
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--grey);
 }
 
 .user-component__avatar--xl {
@@ -41,7 +42,7 @@
 .user-component__avatar--sm {
     width:60px;
     height:60px;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 .user-component-title--not-bold {
@@ -51,4 +52,9 @@
 .user-component__time {
     margin-bottom: 5px;
     display:block;
+}
+
+.user-component__subtitle i {
+    color: tomato;
+    margin-left: 5px;
 }

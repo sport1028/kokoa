@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items:center;
     padding:var(--horizontal-space);
-    margin-bottom: 15px;
+    margin: 15px 0px;
 }
 
 .screen-header__title {
@@ -15,3 +15,19 @@
     margin-left: 25px;
 }
 
+.screen-header__cog {
+    position: relative;
+}
+
+@keyframes rotateCog {
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-cog:hover {
+    animation: rotateCog 1s linear infinite;
+}
